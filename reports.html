@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drug Inventory Dashboard</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reports.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./images/logo.png" alt="Logo" />
+            <h2>MEDIZON<span class="danger"></span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="index.html">
+            <span class="material-icons-sharp"> dashboard </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="inventory.html">
+            <span class="material-icons-sharp"> dataset </span>
+            <h3>Inventory</h3>
+          </a>
+          <a href="#"class="active">
+            <span class="material-icons-sharp"> receipt_long </span>
+            <h3>Orders</h3>
+          </a>
+          <a href="https://www.google.com/">
+            <span class="material-icons-sharp"> insights </span>
+            <h3>Reports</h3>
+          </a>
+          <a href="notifications.html">
+            <span class="material-icons-sharp"> mail_outline </span>
+            <h3>Notifications</h3>
+          </a>
+          <a href="https://www.google.com/">
+            <span class="material-icons-sharp"> store </span>
+            <h3>Manage store</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> settings </span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <div class="container">
+
+        <h3 class="title"> organic products </h3>
+     
+        <div class="products-container">
+     
+           <div class="product" data-name="p-1">
+              <img src="images/1.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+           <div class="product" data-name="p-2">
+              <img src="images/2.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+           <div class="product" data-name="p-3">
+              <img src="images/3.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+           <div class="product" data-name="p-4">
+              <img src="images/4.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+           <div class="product" data-name="p-5">
+              <img src="images/5.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+           <div class="product" data-name="p-6">
+              <img src="images/6.png" alt="">
+              <h3></h3>
+              <div class="price">$2.00</div>
+           </div>
+     
+        </div>
+     
+     </div>
+     
+     <div class="products-preview">
+     
+        <div class="preview" data-target="p-1">
+           <i class="fas fa-times"></i>
+           <img src="images/1.png" alt="">
+           <h3></h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-2">
+           <i class="fas fa-times"></i>
+           <img src="images/2.png" alt="">
+           <h3></h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-3">
+           <i class="fas fa-times"></i>
+           <img src="images/3.png" alt="">
+           <h3></h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-4">
+           <i class="fas fa-times"></i>
+           <img src="images/4.png" alt="">
+           <h3></h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-5">
+           <i class="fas fa-times"></i>
+           <img src="images/5.png" alt="">
+           <h3></h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-6">
+           <i class="fas fa-times"></i>
+           <img src="images/6.png" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+           <div class="price">$2.00</div>
+           <div class="buttons">
+              <a href="#" class="buy">buy now</a>
+              <a href="#" class="cart">add to cart</a>
+           </div>
+        </div>
+     
+     </div>
+
+      <main>
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp"> menu </span>
+          </button>
+          <div class="profile">
+            <div class="info">
+              <p> <b>Admin</b></p>
+              <small class="text-muted">name</small>
+            </div>
+            <div class="profile-photo">
+              <img src="./images/profile-1.png" alt="Profile Picture" />
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+    </div>
+    
+
+  </body>
+</html>
